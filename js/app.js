@@ -26,6 +26,7 @@ $('document').ready(function(){
       $('div.ryu-still').hide();
       $('div.ryu-cool').hide();
       $('div.ryu-throwing').show();
+      /*$('div.textlogo').hide();*/
       $('div.hadouken').show();
       $('div.hadouken').animate({left: "1000px"},300,function()
     {

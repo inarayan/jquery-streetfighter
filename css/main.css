@@ -2,6 +2,7 @@ body{
   background-color: black;
 }
 
+
 .main{
   background-color: white;
   margin-top: 110px;
@@ -10,6 +11,10 @@ body{
   height:500px;
   position:relative;
   z-index:1;
+}
+
+.ryu-container{
+  float:left;
 }
 
 .hadouken {
@@ -24,19 +29,32 @@ body{
   float: left;
 }
 
+.textlogo{
+  width: 650px;
+      height: 350px;
+      position: absolute;
+      /* position: relative; */
+      left: 650px;
+      padding-top:75px;
+}
 
+.textlogo p{
+  text-align: left;
+  font-weight: 300;
+  font-family: cursive;
+  font-size: 1.2em;
+}
 
-.ryu, .ryu-still, .ryu-ready, .ryu-throwing,.ryu-cool
-{
+.ryu, .ryu-still, .ryu-ready, .ryu-throwing,.ryu-cool{
   width:659px;
   height:494px;
+
   background-repeat: no-repeat;
 }
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
   background-repeat: no-repeat;
 }
-.ryu-ready , .ryu-throwing , .ryu-cool
-{
+.ryu-ready , .ryu-throwing , .ryu-cool{
   display:none;
 }
 
